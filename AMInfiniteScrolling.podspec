@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'InfiniteScrolling'
-  s.version          = '1.0.3'
-  s.summary          = 'Add infinite scrolling to collection view.'
+  s.name             = 'AMInfiniteScrolling'
+  s.version          = '2.0'
+  s.summary          = 'Add infinite scrolling to collection view. Support swift 4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'This pod adds infinite scrolling ability in UICollectionView'.
+'This pod adds infinite scrolling ability in UICollectionView. This component has been written by Visal Singh Panwar. We have updated it to Swift 4.2 support'. 
 DESC
 
-  s.homepage         = 'https://github.com/Vishal-Singh-Panwar/InfiniteScrolling'
+  s.homepage         = 'https://github.com/Anumothu/InfiniteScrolling'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Vishal Singh Panwar' => 'vishal.singh030788@gmail.com' }
-  s.source           = { :git => 'https://github.com/Vishal-Singh-Panwar/InfiniteScrolling.git', :tag => s.version.to_s }
+  s.author           = { 'Vishal Singh Panwar' => 'vishal.singh030788@gmail.com', 'anumothu' => 'anumothu911@gmail.com' }
+  s.source           = { :git => 'https://github.com/Anumothu/InfiniteScrolling.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
