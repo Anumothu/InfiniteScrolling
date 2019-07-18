@@ -1,4 +1,4 @@
-# InfiniteScrolling
+# AMInfiniteScrolling
 
 [![Version](https://img.shields.io/cocoapods/v/InfiniteScrolling.svg?style=flat)](http://cocoapods.org/pods/InfiniteScrolling)
 [![License](https://img.shields.io/cocoapods/l/InfiniteScrolling.svg?style=flat)](http://cocoapods.org/pods/InfiniteScrolling)
